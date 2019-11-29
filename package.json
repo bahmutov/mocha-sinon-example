@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/bahmutov/mocha-sinon-example#readme",
   "devDependencies": {
+    "chai": "4.2.0",
     "mocha": "6.2.2",
-    "sinon": "7.5.0"
+    "sinon": "7.5.0",
+    "sinon-chai": "3.3.0"
   }
 }

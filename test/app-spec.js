@@ -10,5 +10,6 @@ it('logs Hello', () => {
 
 it('logs again', () => {
   const log = global.sandbox.spy(console, 'log')
-  // no problems
+  app()
+  expect(log).to.have.been.calledOnceWith('Hello')
 })
