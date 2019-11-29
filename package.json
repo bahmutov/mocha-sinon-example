@@ -1,0 +1,29 @@
+{
+  "name": "mocha-sinon-example",
+  "version": "1.0.0",
+  "description": "Example showing how to use Sinon.js with Mocha.js for unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/*-spec.js'",
+    "start": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/mocha-sinon-example.git"
+  },
+  "keywords": [
+    "mocha",
+    "sinon",
+    "example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/mocha-sinon-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/mocha-sinon-example#readme",
+  "devDependencies": {
+    "mocha": "6.2.2",
+    "sinon": "7.5.0"
+  }
+}
